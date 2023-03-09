@@ -46,30 +46,48 @@ print("Your pin is " + str(number))
 
 
 
-# import random
-# number = int(input("Input 8 figure pin:"))
-# guess = 0
-# while(guess != number):
-#     guess = random.randint(0,99999999)
-# print("Pin is " + str(number))
+import random
+number = int(input("Input 8 figure pin:"))
+guess = 0
+while(guess != number):
+    guess = random.randint(0,99999999)
+print("Pin is " + str(number))
 
 
 
-# import random
-# number = int(input("9 figure pin recommended"))
-# guess = 0
-# while(guess != number):
-#     guess = random.randint(0,999999999)
-# print("The pin is "+ str(number))
+import random
+number = int(input("9 figure pin recommended"))
+guess = 0
+while(guess != number):
+    guess = random.randint(0,999999999)
+print("The pin is "+ str(number))
 
 
 
-# import random
-# number = int(input("A 10 digit pin is allowed:"))
-# guess = 0
-# while(guess != number):
-#     guess = random.randint(0,9999999999)
-# print("The found pin is " + str(number))
+import random
+number = int(input("A 10 digit pin is allowed:"))
+guess = 0
+while(guess != number):
+    guess = random.randint(0,9999999999)
+print("The found pin is " + str(number))
+
+
+
+import random
+number = int(input("Input 11-number pin:"))
+guess = 0
+while(guess != number):
+    guess = random.randint(0,99999999999)
+print("The 11-digit pin is " + str(number))
+
+
+
+import random
+number = int(input("12 digit-pin:"))
+guess = 0
+while(guess != number):
+    guess = random.randint(0,999999999999)
+print("Pin is " + str(number))
 
 
 
